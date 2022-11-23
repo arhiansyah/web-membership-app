@@ -1,0 +1,26 @@
+### INSTALATION
+
+-   CLONE THIS PROJECT
+-   COMPOSER INSTALL WITH TERMINAL
+-   NPM INSTALL & NPM RUN DEV
+-   CREATE .ENV, COPY .ENV EXAMPLE
+-   DUPLICATE ENV AND CHANGE NAME TO .ENV.DUSK.LOCAL
+-   SETTINGS DB .ENV AND .ENV.DUSK.LOCAL. EACH HAS A DIFFERENT DB
+-   CREATE DB IN PHPMYADMIN, MYSQL SERVER OR ANYTHING
+-   IN TERMINAL, RUN COMMAND php artisan migrate:fresh --seed
+-   you have 2 account, guest and member.
+-   guest, email : guest@mail.com, password : 12345678
+-   member, email : member@mail.com, password : 12345678
+-   running command in terminal, 'php artisan serve', then klik url.
+-   if you want testing, please running command php artisan dusk
+-   first page is portal laravel, the register and login buttons are in the upper right corner
+-   login
+-   register
+-   then if success redirect to dashboard
+-   then in dashboard you see 3 card membership, please click join if you want
+-   checkout page, after click join. you will be redirected to the checkout page
+-   fill form
+-   then success checkout
+-   on the dashboard page, in the upper right corner there is a dropdown that you can click on and displays the list, profile, membership page and logout
+-   click membership, then redirect to membership page
+-   then you see information membership page
